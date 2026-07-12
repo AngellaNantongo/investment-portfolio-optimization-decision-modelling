@@ -1,0 +1,15 @@
+Asset,Sector,Target_Annual_Return,Target_Annual_Vol
+US_Tech_Equity,Equity,0.14,0.24
+US_Healthcare_Equity,Equity,0.1,0.16
+US_Financials_Equity,Equity,0.09,0.2
+US_Energy_Equity,Equity,0.08,0.28
+US_Consumer_Equity,Equity,0.095,0.15
+European_Equity,Equity,0.075,0.19
+Emerging_Markets_Equity,Equity,0.11,0.26
+US_Govt_Bonds,Fixed Income,0.035,0.05
+US_Corporate_Bonds,Fixed Income,0.045,0.08
+Global_Bonds,Fixed Income,0.03,0.07
+REIT,Alternatives,0.08,0.18
+Gold,Alternatives,0.05,0.15
+Commodities,Alternatives,0.06,0.22
+Money_Market,Cash,0.02,0.005
