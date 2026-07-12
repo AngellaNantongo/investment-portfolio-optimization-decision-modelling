@@ -66,9 +66,8 @@ print(
     "\nData is clean - no missing months, no implausible return values. "
     "60 months (5 years) is enough to estimate risk (volatility, "
     "correlation) reliably, but is genuinely too short to estimate average "
-    "return reliably - that statistical fact is exactly why the next "
-    "section uses forward-looking return assumptions instead of the raw "
-    "historical average.\n"
+    "return reliably, which is why the next section uses forward-looking "
+    "return assumptions instead of the raw historical average.\n"
 )
 
 # ===========================================================================
