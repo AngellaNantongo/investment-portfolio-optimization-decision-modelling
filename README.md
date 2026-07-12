@@ -95,7 +95,7 @@ All three portfolios (unconstrained max Sharpe, min variance, policy-constrained
 ## 📂 What's in here
 
 - **`src/portfolio_optimization.py`** — full analysis: problem → data quality → EDA → unconstrained optimization → constrained optimization → cost-of-constraints comparison → efficient frontier → recommendations
-- **`excel/Portfolio_Optimizer.xlsx`** — the same model rebuilt for Excel Solver: asset data, covariance matrix, and Solver-ready decision cells, pre-loaded with the verified-correct answer plus a full instructions sheet for reproducing it yourself with Solver
+- **`excel/Portfolio_Optimizer.xlsx`** — the same model rebuilt for Excel Solver: asset data, covariance matrix, and Solver-ready decision cells, pre-loaded with the verified-correct answer
 - **`outputs/`** — 3 charts: correlation matrix, allocation comparison, efficient frontier
 - **`data/`** — `monthly_returns.csv` (60 months × 14 assets) and `asset_info.csv` (sector + return/risk assumptions)
 
@@ -111,7 +111,7 @@ python portfolio_optimization.py
 ```
 
 ## ▶️ Running the Excel version
-Open `excel/Portfolio_Optimizer.xlsx` — the optimal answer is already loaded in the Weight column. To reproduce it yourself with Solver, see the "Solver Instructions" sheet (first tab).
+Open `excel/Portfolio_Optimizer.xlsx` — the optimal answer is already loaded in the Weight column, computed with Excel's Solver add-in against the `Assets` and `Covariance` sheets.
 
 ---
 
